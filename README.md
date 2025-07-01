@@ -2,6 +2,8 @@
 
 An interactive weather app built with **React**, **Vite**, **TailwindCSS**, and **OpenWeatherMap API**, featuring animated backgrounds, audio effects (rain & thunder), search functionality, and responsive design for mobile and desktop.
 
+You can visit the result of this project [here](https://weather-app-by-furqon.vercel.app/) (hosted using [vercel](https://vercel.com/))
+
 ---
 
 ## ✨ Features
@@ -53,6 +55,9 @@ VITE_WEATHER_API_KEY=your_openweathermap_api_key
 npm run dev
 ```
 
+### 5. Host your own web (optional)
+You can host your own weather app using vercel if you want a free and great hosting service. You can see the guide [here](https://vercel.com/docs/deployments)
+
 ---
 
 ## 📁 Project Structure
@@ -102,3 +107,9 @@ public/
 ## 📄 License
 
 - This project is open source and free to use under the [MIT License](https://github.com/muh-furqon/weather-web-app/blob/master/LICENSE)
+
+---
+
+## 👨‍💻 Author
+
+Created by [muh-furqon](https://github.com/muh-furqon) (myself), Weather API powered by [OpenWeatherMap](http://openweathermap.org/) 
