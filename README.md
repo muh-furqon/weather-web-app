@@ -22,7 +22,7 @@ An interactive weather app built with **React**, **Vite**, **TailwindCSS**, and 
 - [Vite](https://vitejs.dev/)
 - [Tailwind CSS v4](https://tailwindcss.com/)
 - [OpenWeatherMap API](https://openweathermap.org/api)
-- Custom animations with CSS & `<audio>` playback
+- Custom animations with CSS & `<audio>` playbackk
 
 ---
 
@@ -33,3 +33,72 @@ An interactive weather app built with **React**, **Vite**, **TailwindCSS**, and 
 ```bash
 git clone https://github.com/your-username/weather-app.git
 cd weather-app
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Create your `.env` file
+Create a `.env` file in the root with your OpenWeatherMap API Key:
+
+```ini
+VITE_WEATHER_API_KEY=your_openweathermap_api_key
+```
+
+### 4. Run the development server
+```bash
+npm run dev
+```
+
+---
+
+## 📁 Project Structure
+
+```css
+src/
+├── components/
+│   └── animations/
+│       ├── RainAnimation.jsx
+│       ├── SnowAnimation.jsx
+│       └── ThunderAnimation.jsx
+├── App.jsx
+├── WeatherShowcase.jsx
+├── main.jsx
+├── index.css
+public/
+├── rain.mp3
+└── thunder.mp3
+```
+
+## 🎨 Weather Mapping & Effects
+
+| Weather Type  | Background          | Animation        | Sound          |
+| ------------- | ------------------- | ---------------- | -------------- |
+| Clear         | Yellow gradient     | –                | –              |
+| Clouds        | Gray gradient       | –                | –              |
+| Rain          | Blue gradient       | Rain drops       | Rain loop      |
+| Snow          | White/Blue gradient | Snowflakes       | –              |
+| Thunderstorm  | Indigo gradient     | Lightning + Rain | Thunder + Rain |
+| Mist/Haze/Fog | Subtle gray tones   | –                | –              |
+
+
+---
+
+## 📱 Mobile Experience
+
+- Sticky search bar
+
+- Scrollable forecast horizontally
+
+- Responsive weather card and layout
+
+- Touch-friendly animations
+
+---
+
+## 📄 License
+
+- This project is open source and free to use under the
