@@ -101,4 +101,4 @@ public/
 
 ## 📄 License
 
-- This project is open source and free to use under the
+- This project is open source and free to use under the [MIT License](https://github.com/muh-furqon/weather-web-app/blob/master/LICENSE)
